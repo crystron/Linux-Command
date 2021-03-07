@@ -1,0 +1,57 @@
+Graphic 
+    sudo prime-select intel 
+    sudo prime-select nvidia
+    prime-select query
+PSQL
+   Error database xxx is being accessed:
+        SELECT pg_terminate_backend(pg_stat_activity.pid)
+        FROM pg_stat_activity
+        WHERE datname='nameOfDb' AND pid<>pg_backend_pid();
+
+Ownership
+    add USER to the owner of /.../
+        sudo chown -R $USER /usr/local/lib
+    check who owner    
+        ls -la /usr/local/lib/node_modules
+
+Power Management    
+    cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+    cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+Mount mdf
+    mkdir -p /mnt/mdf/ 
+    mount -o loop -t iso9660 {file}.mdf /mnt/mdf
+    sudo mount -o loop -t iso9660 RINSEN.mdf /media/Disk
+    LANG=ja_JP.utf-8
+    WINEPREFIX=~/.local/share/lutris/runners/wine/lutris-6.0-rc1-x86_64
+
+Create Desktop File
+    [Desktop Entry]
+    Type=Application
+    Name=Yugioh Omega
+    Comment=YuGiOh Omega
+    Exec="/home/crystron/Downloads/Omega-Linux/YGO Omega.x86_64"
+    Icon=/home/crystron/Downloads/Omega-Linux/YGO Omega_Data/Resources/UnityPlayer.png
+    Categories=
+
+Convert to mp4
+    ffmpeg -framerate 2 -pattern_type glob -i '*.png'   -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+    ffmpeg -framerate 2 -pattern_type glob -i '/media/crystron/Resources/Extra/Oyako Ai 2/*.png' -c:v libx264 -r 30 out.mp4
+    cat {003..403}*.png | ffmpeg -f image2pipe -framerate 2 -i - -s 1024x768 test2.mp4
+    cat {003..403}*.png | ffmpeg -f image2pipe -framerate 2 -i - -vcodec libx264 ou.mp4
+    option: - -s {resolution} -vcodec libx264 libx264rgb     
+    cat /media/crystron/Resources/Extra/"Hissatsu Shigokinin"/*.png | ffmpeg -f image2pipe -framerate 2 -i - -s 800x600 "Hissatsu Shigokinin.mp4"
+
+Rename identity:
+    find -name '*.jpg' | # find jpegs
+    gawk 'BEGIN{ a=1 }{ printf "mv %s %04d.jpg\n", $0, a++ }' | # build mv command
+    bash # run that command
+
+
+Spring boot config
+    Active profile dev:
+        --spring.profiles.active=dev
+Port 
+    View port in process:
+    sudo lsof -t -i:9999
