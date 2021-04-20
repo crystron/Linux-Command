@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Azure Data Studio - URL Handler
+Comment=Azure Data Studio
+GenericName=Text Editor
+Exec=/usr/share/azuredatastudio/azuredatastudio --no-sandbox --open-url %U
+Icon=com.azuredatastudio.oss
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=Utility;TextEditor;Development;IDE;
+MimeType=x-scheme-handler/azuredatastudio;
+Keywords=azuredatastudio;
+X-Desktop-File-Install-Version=0.24

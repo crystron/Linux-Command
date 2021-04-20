@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=Games
+Comment[en_US]=YuGiOh Omega
+Comment=YuGiOh Omega
+Exec="/home/crystron/Downloads/Omega-Linux/YGO Omega.x86_64"
+GenericName[en_US]=
+GenericName=
+Icon=/home/crystron/Downloads/Omega-Linux/YGO Omega_Data/Resources/UnityPlayer.png
+MimeType=
+Name[en_US]=Yugioh Omega
+Name=Yugioh Omega
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

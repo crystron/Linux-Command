@@ -1,0 +1,143 @@
+apport-gtk.desktop	/usr/share/apport/apport-gtk -c %f			true
+org.gnome.Characters.desktop	/usr/bin/gnome-characters			false
+gnome-system-monitor-kde.desktop	gnome-system-monitor		KDE;	false
+libreoffice-writer.desktop	libreoffice --writer %U	libreoffice-writer		false
+gnome-region-panel.desktop	gnome-control-center region		GNOME;Unity;	true
+gnome-removable-media-panel.desktop	gnome-control-center removable-media		GNOME;Unity;	true
+openjdk-8-policytool.desktop	/usr/bin/policytool			false
+gnome-online-accounts-panel.desktop	gnome-control-center online-accounts		GNOME;Unity;	true
+nm-applet.desktop	nm-applet			true
+software-properties-drivers.desktop	/usr/bin/software-properties-gtk --open-tab=4			false
+org.freedesktop.IBus.Setup.desktop	ibus-setup			false
+gcr-prompter.desktop	/usr/libexec/gcr-prompter			true
+azuredatastudio.desktop	/usr/share/azuredatastudio/azuredatastudio --no-sandbox --unity-launch %F	azuredatastudio		false
+azuredatastudio-url-handler.desktop	/usr/share/azuredatastudio/azuredatastudio --no-sandbox --open-url %U			true
+nm-connection-editor.desktop	nm-connection-editor			false
+shotwell.desktop	shotwell %U			false
+ktelnetservice5.desktop	ktelnetservice5 %u			true
+gnome-microphone-panel.desktop	gnome-control-center microphone		GNOME;Unity;	true
+gnome-usage-panel.desktop	gnome-control-center usage		GNOME;Unity;	true
+gnome-default-apps-panel.desktop	gnome-control-center default-apps		GNOME;Unity;	true
+org.gnome.Screenshot.desktop	gnome-screenshot --interactive			false
+gnome-lock-panel.desktop	gnome-control-center lock		GNOME;Unity;	true
+simple-scan.desktop	simple-scan			false
+caprine.desktop	/opt/Caprine/caprine %U	Caprine		false
+org.freedesktop.IBus.Panel.Extension.Gtk3.desktop	/usr/libexec/ibus-extension-gtk3			true
+gnome-control-center.desktop	gnome-control-center		GNOME;Unity;	false
+rhythmbox.desktop	rhythmbox %U			false
+org.gnome.font-viewer.desktop	gnome-font-viewer %u			false
+org.gnome.tweaks.desktop	gnome-tweaks	gnome-tweaks	GNOME;Unity;Pantheon;	false
+software-properties-livepatch.desktop	/usr/bin/software-properties-gtk --open-tab=6		GNOME;	false
+hplj1020.desktop	/usr/share/foo2zjs/hplj10xx_gui.tcl			true
+org.gnome.Logs.desktop	gnome-logs			false
+evolution-calendar.desktop	evolution -c calendar			true
+mpv.desktop	mpv --player-operation-mode=pseudo-gui -- %U			false
+org.gnome.DiskUtility.desktop	gnome-disks			false
+gnome-wifi-panel.desktop	gnome-control-center wifi		GNOME;Unity;	true
+vino-server.desktop	/usr/libexec/vino-server --sm-disable			true
+ubuntu-cleaner.desktop	ubuntu-cleaner			false
+gnome-universal-access-panel.desktop	gnome-control-center universal-access		GNOME;Unity;	true
+gnome-location-panel.desktop	gnome-control-center location		GNOME;Unity;	true
+gkbd-keyboard-display.desktop	gkbd-keyboard-display		GNOME;	true
+org.gnome.Evince-previewer.desktop	evince-previewer %U			true
+vim.desktop	vim %F			false
+openjdk-8-java.desktop	cautious-launcher %f /usr/bin/java -jar			true
+gnome-keyboard-panel.desktop	gnome-control-center keyboard		GNOME;Unity;	true
+org.gnome.Shell.PortalHelper.desktop	gapplication launch org.gnome.Shell.PortalHelper		GNOME;	true
+org.gnome.Terminal.desktop	gnome-terminal		GNOME;Unity;	false
+gnome-background-panel.desktop	gnome-control-center background		GNOME;	true
+libreoffice-startcenter.desktop	libreoffice %U	libreoffice-startcenter		false
+org.gnome.eog.desktop	eog %U			false
+shotwell-viewer.desktop	shotwell %f			true
+gnome-mouse-panel.desktop	gnome-control-center mouse		GNOME;Unity;	true
+org.gnome.Totem.desktop	totem %U			false
+gnome-info-overview-panel.desktop	gnome-control-center info-overview		GNOME;Unity;	true
+net.lutris.Lutris.desktop	lutris %U			false
+org.gnome.Sudoku.desktop	gnome-sudoku			false
+rygel.desktop	rygel			true
+org.gnome.Mines.desktop	gnome-mines			false
+uget-gtk.desktop	env GDK_BACKEND=x11 uget-gtk %u			false
+discord.desktop	/usr/share/discord/Discord	discord		false
+gnome-session-properties.desktop	gnome-session-properties		GNOME;Unity;	false
+gnome-disk-image-writer.desktop	gnome-disks --restore-disk-image %U			true
+gnome-disk-image-mounter.desktop	gnome-disk-image-mounter %U			true
+thunderbird.desktop	thunderbird %u			false
+gnome-language-selector.desktop	/usr/bin/gnome-language-selector			false
+gnome-camera-panel.desktop	gnome-control-center camera		GNOME;Unity;	true
+sol.desktop	/usr/games/sol			false
+rhythmbox-device.desktop	rhythmbox-client --select-source %U			true
+org.gnome.Shell.desktop	/usr/bin/gnome-shell		GNOME;	true
+ibus-setup-table.desktop	/usr/libexec/ibus-setup-table			true
+org.gnome.Nautilus.desktop	nautilus --new-window %U			false
+gnome-power-panel.desktop	gnome-control-center power		GNOME;Unity;	true
+gnome-ubuntu-panel.desktop	gnome-control-center ubuntu		ubuntu;	true
+geoclue-demo-agent.desktop	/usr/libexec/geoclue-2.0/demos/agent			true
+org.gnome.Calculator.desktop	gnome-calculator			false
+info.desktop	info			false
+openjdk-11-java.desktop	cautious-launcher %f /usr/bin/java -jar			true
+com.teamviewer.TeamViewer.desktop	/opt/teamviewer/tv_bin/script/teamviewer			false
+org.gnome.baobab.desktop	baobab %U			false
+org.gnome.Cheese.desktop	cheese			false
+update-manager.desktop	/usr/bin/update-manager			false
+code.desktop	/usr/share/code/code --no-sandbox --unity-launch %F	Code		false
+remmina-gnome.desktop	remmina-gnome			true
+com.uploadedlobster.peek.desktop	peek			false
+org.gnome.PowerStats.desktop	gnome-power-statistics		GNOME;Unity;	false
+org.kde.keditbookmarks.desktop	keditbookmarks			true
+gnome-wacom-panel.desktop	gnome-control-center wacom		GNOME;Unity;	true
+gnome-datetime-panel.desktop	gnome-control-center datetime		GNOME;	true
+org.gnome.seahorse.Application.desktop	seahorse			false
+gnome-thunderbolt-panel.desktop	gnome-control-center thunderbolt		GNOME;Unity;	true
+gnome-bluetooth-panel.desktop	gnome-control-center bluetooth		GNOME;Unity;	true
+winetricks.desktop	winetricks --gui			false
+gnome-software-local-file.desktop	gnome-software --local-filename %f			true
+gnome-diagnostics-panel.desktop	gnome-control-center diagnostics		GNOME;Unity;	true
+gnome-system-monitor.desktop	gnome-system-monitor			false
+org.gnome.Evolution-alarm-notify.desktop	/usr/libexec/evolution-data-server/evolution-alarm-notify		GNOME;Unity;XFCE;Dawati;MATE;	true
+org.gnome.Shell.Extensions.desktop	false		GNOME;	true
+microsoft-edge-dev.desktop	/usr/bin/microsoft-edge-dev %U			false
+nvidia-settings.desktop	/usr/bin/nvidia-settings			false
+gnome-network-panel.desktop	gnome-control-center network		GNOME;Unity;	true
+gnome-color-panel.desktop	gnome-control-center color		GNOME;Unity;	true
+org.kde.dolphin.desktop	dolphin %u	dolphin		false
+org.kde.ark.desktop	ark %U	ark		false
+org.gnome.Mahjongg.desktop	gnome-mahjongg			false
+org.gnome.DejaDup.desktop	deja-dup			false
+gnome-search-panel.desktop	gnome-control-center search		GNOME;Unity;	true
+org.gnome.Todo.desktop	gnome-todo			false
+snap-handle-link.desktop	/usr/bin/snap handle-link %U			true
+teamviewerapi.desktop	/opt/teamviewer/tv_bin/script/teamviewer --url "%u"			false
+wine.desktop	wine start /unix %f			true
+gnome-notifications-panel.desktop	gnome-control-center notifications		GNOME;Unity;	true
+gnome-display-panel.desktop	gnome-control-center display		GNOME;Unity;	true
+org.gnome.Extensions.desktop	/usr/bin/gnome-extensions-app		GNOME;	false
+gnome-printers-panel.desktop	gnome-control-center printers		GNOME;Unity;	true
+im-config.desktop	im-config		KDE;LXQt;	false
+libreoffice-math.desktop	libreoffice --math %U	libreoffice-math		false
+libreoffice-draw.desktop	libreoffice --draw %U	libreoffice-draw		false
+gnome-sharing-panel.desktop	gnome-control-center sharing		GNOME;Unity;	true
+remmina-file.desktop	remmina-file-wrapper -c %U			true
+libreoffice-calc.desktop	libreoffice --calc %U	libreoffice-calc		false
+nautilus-autorun-software.desktop	nautilus-autorun-software %u			true
+org.gnome.Software.desktop	gnome-software %U			false
+transmission-gtk.desktop	transmission-gtk %U			false
+system-config-printer.desktop	system-config-printer			false
+usb-creator-gtk.desktop	usb-creator-gtk			false
+gcr-viewer.desktop	/usr/bin/gcr-viewer			true
+org.freedesktop.IBus.Panel.Emojier.desktop	ibus emoji			true
+yelp.desktop	yelp %u		GNOME;Unity;	false
+bluetooth-sendto.desktop	bluetooth-sendto			true
+gnome-user-accounts-panel.desktop	gnome-control-center user-accounts		GNOME;Unity;	true
+gnome-connectivity-panel.desktop	gnome-control-center connectivity		GNOME;Unity;	true
+org.gnome.Calendar.desktop	gnome-calendar			false
+python3.8.desktop	/usr/bin/python3.8			true
+gnome-initial-setup.desktop	/usr/libexec/gnome-initial-setup		GNOME;	true
+gnome-sound-panel.desktop	gnome-control-center sound		GNOME;Unity;	true
+org.gnome.gedit.desktop	gedit %U			false
+code-url-handler.desktop	/usr/share/code/code --no-sandbox --open-url %U			true
+gnome-applications-panel.desktop	gnome-control-center applications		GNOME;Unity;	true
+libreoffice-xsltfilter.desktop	libreoffice %U			true
+org.remmina.Remmina.desktop	remmina-file-wrapper %U	org.remmina.Remmina		false
+libreoffice-impress.desktop	libreoffice --impress %U	libreoffice-impress		false
+software-properties-gtk.desktop	software-properties-gtk			false
+org.gnome.Evince.desktop	evince %U			false
